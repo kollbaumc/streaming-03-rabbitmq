@@ -40,7 +40,7 @@ Once it runs and finishes, we can reuse the terminal.
 1. Run the file.
 
 You'll need to fix an error in the program to get it to run.
-Once it runs successfully, will it terminate on its own? How do you know? 
+Once it runs successfully, will it terminate on its own?  It will terminate on its own. How do you know? The program prints out the message was received and what the message is.  
 As long as the process is running, we cannot use this terminal for other commands. 
 
 ## Version 1 - Open a New Terminal / Emit More Messages

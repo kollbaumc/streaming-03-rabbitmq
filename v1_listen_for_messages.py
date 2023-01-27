@@ -34,7 +34,7 @@ import pika, sys, os
 # define a main function to run the program
 def main():
     # create a blocking connection to the RabbitMQ server
-    connection = pika.BlockingConnection(pika.ConnectionParameters(host='LocalHost'))
+    connection = pika.BlockingConnection(pika.ConnectionParameters(host='localhost'))
     # use the connection to create a communication channel
     channel = connection.channel()
     # use the channel to declare a queue

@@ -10,7 +10,7 @@
 import pika
 
 # create a blocking connection to the RabbitMQ server
-conn = pika.BlockingConnection(pika.ConnectionParameters("LOCALHOST"))
+conn = pika.BlockingConnection(pika.ConnectionParameters("localhost"))
 # use the connection to create a communication channel
 ch = conn.channel()
 # use the channel to declare a queue
