@@ -1,6 +1,5 @@
 """
-
-Always customize this docstring. 
+ 
 
 Chris Kollbaum, 1/27/23, This is a program that recieves sent messages that are in a queue.
 

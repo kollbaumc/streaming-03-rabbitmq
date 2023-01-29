@@ -1,8 +1,10 @@
 """
 
-Always customize this docstring. 
+ 
 
-Add your name, date, and a description of the program.
+Chris Kollbaum, January 29, 2023
+
+This program will recieve messages that are sent to a queue.  
 
 Listens for messages on the queue.
 This process runs continously. 

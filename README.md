@@ -24,7 +24,7 @@ Get started with RabbitMQ, a message broker, that enables multiple processes to 
 
 1. Run about.py.
 1. Read about.txt. 
-1. Verfiy you have exactly one active, one None env.
+1. Verfiy you have exactly one active, one None env.  I have one active environment.
 
 ## Version 1 - Execute the Producer/Sender
 
@@ -32,7 +32,7 @@ Get started with RabbitMQ, a message broker, that enables multiple processes to 
 1. Run the file. 
 
 You'll need to fix an error in the program to get it to run.
-Once it runs and finishes, we can reuse the terminal.
+Once it runs and finishes, we can reuse the terminal.  The error was in the connecting to the localhost.  
 
 ## Version 1 - Execute the Consumer/Listener
 
@@ -78,16 +78,16 @@ Each of the version 2 programs include an error as well.
 1. Modify the docstrings on all your files.
 1. Include your name and the date.
 1. Imports always go at the top, just after the file docstring.
-1. Imports should be one per line - why?
+1. Imports should be one per line - why?  It makes it easier to read and modify the code.  
 1. Then, define your functions.
-1. Functions are reuable logic blocks.
+1. Functions are reusable logic blocks.
 1. Everything the function needs comes in through the arguments.
 1. A function may - or may not - return a value. 
 1. When we open a connection, we should close the connection. 
-1. Which of the 4 files will always close() the connection?
+1. Which of the 4 files will always close() the connection?  The emit files close the connection.  
 1. Search GitHub for if __name__ == "__main__":
-1. How many hits did you get? 
-1. Learn and understand this common Python idiom.
+1. How many hits did you get? I got 2,572 hits.  
+1. Learn and understand this common Python idiom.  Here is a website I found on this.  https://geekflare.com/python-if-name-main/#:~:text=When%20you%20run%20a%20module%20directly%2C%20the%20value,module%20run%20during%20direct%20and%20imported%20runs%2C%20respectively.
 
 ## Reference
 
