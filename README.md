@@ -52,6 +52,10 @@ As long as the process is running, we cannot use this terminal for other command
 1. Watch what happens in the listening window.
 1. Do this several times to emit at least 3 different messages.
 
+![Emit Image](mod3streaming1.png)
+
+![Listen Image](mod3streaming2.png)
+
 ## Version 1: Don't Repeat Yourself (DRY)
 
 1. Did you notice you had to change the message in two places?
