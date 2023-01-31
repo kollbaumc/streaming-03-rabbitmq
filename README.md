@@ -98,6 +98,5 @@ Each of the version 2 programs include an error as well.
 - [RabbitMQ Tutorial - Hello, World!](https://www.rabbitmq.com/tutorials/tutorial-one-python.html)
 - [Using Python environments in VS Code](https://code.visualstudio.com/docs/python/environments)
 
-## Multiple Terminals
 
-![Mac Example](screenshot.png)
+
